@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search CEP</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Busca CEP</h1>
+        <form action="#" method="post" onsubmit="searchCEP();">
+            <div class="form-group">
+                    <input type="text" name="cep" id="cep" placeholder="CEP: " class="form-control">
+            </div>
+            <div class="form-group">
+                    <button type="submit" class="btn btn-success">Buscar</button>
+            </div>
+        </form>
+
+        <hr>
+
+        <div id="preloader" style="display: none;">
+            <img src="https://file.mockplus.com/image/2018/04/d938fa8c-09d3-4093-8145-7bb890cf8a76.gif" alt="Preloader">
+        </div>
+
+        <div id="results">
+            
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="assets/js/preloader.js"></script>
+    <!-- <script src="assets/js/cep.js"></script> -->
+    <script src="assets/js/cep2.js"></script>
+</body>
+</html>
