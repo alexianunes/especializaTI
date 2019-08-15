@@ -1,0 +1,4 @@
+#Para evitar pasta que é criada por algumas IDE's
+.vscode/
+
+#END
